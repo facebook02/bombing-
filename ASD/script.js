@@ -18,7 +18,7 @@ $(document).ready(() => {
                 },
                 {
                     method: 'POST',
-                    url: "http://robi.api.bongobd.com/api/login/send-otp",
+                    url: "https://developer.quizgiri.xyz/api/v2.0/send-otp",
                     body: `msisdn=88${mobile}&operator=all`
                 },
                 {
